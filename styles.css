@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100%;
+}
+
+
+/* HEADER */
+
+
+.hero-image {
+ background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/images/istockphoto-913677844-612x612.jpg') ;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+ height: 100vh;
+
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 29px;
+}
+
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+
+
+nav li a:hover {
+    border-bottom: solid 4px  #678E3E;
+    padding: 5px;
+
+}
+
+
+li {
+
+    list-style: none;
+}
+
+
+
+
+.home-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+
+.home-title h1 {
+    color: white;
+    font-size: 50px;
+    border-bottom: white solid 1px;
+
+}
+
+
+
+.fa-utensils-slash {
+    color: orange;
+    font-size: 20px;
+}
+
+
+
+
+img {
+    height: 100px  
+}
+
+
+.logo {
+    display: flex;
+    
+}
+
+
+
+/*  Details SECTION */
+
+
+
+.details {
+    min-height: 30vh;
+}
+
+
+
+.details {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F1F5F8;
+    position: relative;
+
+  
+}
+
+
+
+
+
+.card:hover {
+    background-color: white;
+    border-bottom: solid 3px #678E3E ;
+}
+
+
+.card h3 {
+    color: #112B42;
+    font-size: 30px;
+}
+
+
+.card {
+    padding-top: 40px;
+}
+
+
+
+
+ .fa-truck-fast, .fa-tree, .fa-bowl-food {
+    color: #678E3E;
+    font-size: 30px;
+    padding-bottom: 10px;
+ }
+
+
+
+
+
+
+/* about-us-section */
+
+.about-us-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.about-us-details {
+  width: 400px;
+  font-size: 20px;
+}
+
+
+.about-us-image img {
+    width: 500px;
+    height: 400px;
+    border: solid 10px #678E3E;
+    position: relative;
+    right: 110px;
+}
+
+
+
+.about-us-head {
+    position: relative;
+    bottom: 20px;
+    color: #102B43;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+/* Menu Section */
+
+
+.menu-section {
+    padding-top: 20px;
+    min-height: 220vh;
+    background-color:  #F7F3F3;
+}
+
+
+
+
+.menu-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #102B43;
+
+
+}
+
+
+.menu-list-heads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+}
+
+.menu-list-heads h4 {
+    margin-right: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.menu-list-heads h4:hover {
+   background-color: #678E3E;
+   border-radius: 10px;
+   color: white;
+   transition: 0.3s;
+   
+}
+
+
+
+
+
+.menu-lunch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+   
+}
+
+
+
+.menu-lunch-left, .menu-lunch-right {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    
+
+}
+
+.menu-lunch-left:hover, .menu-lunch-right:hover {
+   border: #678E3E 3px solid;
+}
+
+
+
+
+
+
+.menu-dinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.menu-dinner-left, .menu-dinner-right {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+.menu-dinner-left:hover, .menu-dinner-right:hover {
+    border: #678E3E 3px solid;
+ }
+
+
+
+
+
+
+
+.menu-desserts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.menu-desserts-left, .menu-desserts-right {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.menu-desserts-left:hover, .menu-desserts-right:hover {
+    border: #678E3E 3px solid;
+ }
+ 
+ 
+ 
+ .menu-text h3{
+    color: #515061;
+ }
+
+
+.menu-beverages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.menu-beverages-left, .menu-beverages-right {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.menu-beverages-left:hover, .menu-beverages-right:hover {
+
+    border: #678E3E 3px solid;
+
+}
+
+
+
+
+
+.menu-image img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.menu-text p {
+    width: 300px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+.price {
+    color: #678E3E;
+    position: relative;
+    left: 50px;
+    font-size: 35px;
+}
+
+
+
+.menu-title {
+    font-size: 30px;
+    
+    
+}
+
+
+
+
+
+.menu-btn-wrapper {
+       
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+
+
+}
+
+
+
+.menu-btn-wrapper  button {
+
+    color: #b78206; 
+     font-weight: bold;
+     border: 0;
+     padding: 0;
+     background-color: transparent;
+     font-weight: bold;
+ }
+
+
+
+ .fa-arrow-right {
+    margin-left: 5px;
+    color: #b78206; 
+
+}
+
+
+
+
+
+
+/*  Blog-section */
+
+
+.blog-section {
+    min-height: 100vh;
+    background-color: #F1F5F8;
+    padding-top: 50px;
+    
+}
+
+
+.blog-wrapper {
+    position: relative;
+    top: 90px;
+    padding-top: 20px;
+}
+
+
+
+.blog-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #102B43;
+
+    
+}
+
+
+.blog-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+
+}
+
+
+
+
+
+.blog-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+.blog-text h3 {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.blog-text p {
+    width: 270px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.blog-image img {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.blog-btn a {
+    color: white;
+    background-color: #678E3E;
+    width: 130px;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    border-radius: 10px;
+    left: 68px;
+    text-decoration: none;
+}
+
+.calendar {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #678E3E;
+
+}
+
+.calendar .date {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+
+.blog-left, .blog-middle, .blog-right {
+    margin-right: 80px;
+}
+
+
+
+
+
+
+/* Contact section */
+
+
+
+.contact {
+    background-color: #F4F1DE;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact .contact-left {
+    position: relative;
+    right: 200px;
+
+}
+
+
+ .address, .email, .phone {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+.address-details, .email-details, .phone-details {
+    position: relative;
+     bottom: 20px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-right form {
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-list input {
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #F1F5F8;
+}
+
+.form-list input[type=text] {
+    font-size: 20px;
+}
+
+
+.form-list #message {
+    height: 150px;
+}
+
+
+
+.contact-right form h3 {
+    display: flex;
+    justify-content: center;
+    color: #102B43;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact-right  .input-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  position: relative;
+  top: 10%;
+  
+}
+
+
+
+.contact-right .input-btn #btn {
+    width: 100%;
+    padding-bottom: 25px;
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #678E3E ;
+}
+
+
+
+
+
+.address, .email, .phone {
+    color: #668F3E;
+}
+
+
+
+.fa-house, .fa-envelope, .fa-phone-flip {
+    margin-right: 10px;
+}
+
+
+
+.address-details, .phone-details, .email-details {
+    font-size: 20px;
+    color: #112A43;
+    font-weight: bold;
+}
