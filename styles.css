@@ -195,7 +195,7 @@ img {
 
 .menu-section {
     padding-top: 20px;
-    min-height: 220vh;
+    min-height: 255vh;
     background-color:  #F7F3F3;
 }
 
@@ -442,7 +442,7 @@ img {
 
 
 .blog-section {
-    min-height: 100vh;
+    min-height: 120vh;
     background-color: #F1F5F8;
     padding-top: 50px;
     
