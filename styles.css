@@ -11,11 +11,11 @@ body {
 }
 
 
-/* HEADER */
+/* HEADER  /images/istockphoto-913677844-612x612.jpg'*/
 
 
 .hero-image {
- background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/images/istockphoto-913677844-612x612.jpg') ;
+ background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../DELICIOSO/images/istockphoto-913677844-612x612.jpg') ;
  background-repeat: no-repeat;
  background-position: center;
  background-size: 100% 100%;
