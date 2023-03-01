@@ -4,6 +4,637 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
+p {
+    font-family: 'Catamaran', sans-serif;
+    color: #617d98;
+
+
+}
+
+
+
+header {
+    margin: 0;
+}
+
+
+
+.hero-image {
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/images/istockphoto-913677844-612x612.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+
+nav ul {
+    display: flex;
+}
+
+
+nav li  { 
+     list-style-type: none;
+
+
+}
+
+
+nav li a {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: white;
+    font-size: 1.7rem;
+    transition: border  0.3s ease-in-out;
+
+
+}
+
+
+nav li a:hover {
+    border-bottom: solid 4px  #678E3E;
+
+}
+
+
+/* MOBILE NAV TOP */
+
+
+
+
+
+.mobile-nav-wrapper {
+    
+    background-color: #FFFEFE;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem;
+    display: none;
+   
+}
+
+
+.mobile-container {
+  
+    position: relative;
+    bottom: 30px;
+}
+
+
+.mobile-container a {
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #112B42;
+}
+
+
+
+.x-icon-wrapper .fa-x {
+    color: red;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+
+.x-icon-wrapper{
+    position: fixed;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+
+.fa-house, .fa-book, .fa-utensils, .fa-phone-flip {
+    color: #678E3E;
+
+}
+
+
+
+.home-mobile, .about-mobile, .menu-mobile, .contact-mobile {
+    padding-top: 2rem;
+}
+
+
+
+.icon-wrapper {
+    display: none;
+}
+
+
+
+ .hamburger-icon {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 30%;
+}
+
+
+
+
+
+
+
+.home-title h1 {
+    font-size: 4.6rem;
+    color: white;
+    padding-bottom: 2rem;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+
+
+
+}
+
+
+.intro-text h2 {
+    color: white;
+    padding-bottom: 2rem;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.hero-description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.hero-description p {
+    width: 58%;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+
+
+
+@media (max-width: 980px) {
+    .nav-list  {
+        display: none;
+    }
+    
+    
+    .icon-wrapper  {
+        display: block;
+    }
+
+   
+    .home-title h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-description p  {
+        font-size: 1.3em;
+        width: 58%;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 320px) {
+    .home-title h1 {
+        position: relative;
+        top: 1rem;
+    }
+
+    .hero-description p {
+        width: 98%;
+    }
+
+    .hamburger-icon {
+        padding-bottom: 2rem;
+        
+
+    }
+}
+
+
+/* MOBILE NAV BOTTOM */
+
+
+
+
+    
+
+/* DETAILS   TOP*/
+
+.details-section {
+    padding-top: 5rem;
+    padding-bottom: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+
+
+}
+
+
+.card-wrapper {
+    display: flex;
+}
+
+
+.detail-card .detail-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.detail-card h3 {
+    color: #112B42;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+
+}
+
+.detail-card {
+    padding: 2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.detail-card:hover {
+    background-color: white;
+
+}
+
+
+.detail-card p {
+    width: 90%;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    color: #617d98;
+}
+
+
+.detail-icon {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fa-truck-fast, .fa-tree, .fa-bowl-food {
+    color: #678E3E;
+    font-size: 3rem;
+    padding-bottom: 2.5rem;
+ }
+
+
+
+ 
+
+
+ 
+@media screen and (max-width:980px) {
+   
+    .card-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .fa-truck-fast, .fa-tree, .fa-bowl-food {
+        padding-right: 1rem;
+    }
+  
+    .detail-card {
+        margin-top: 2rem;
+    }
+
+    .detail-card h3 {
+        font-size: 1.4rem;
+    }
+
+    .detail-card p {
+        width: 95%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+}
+
+/* DETAILS  BOTTOM*/
+
+
+
+
+
+
+/* ABOUT SECTION    TOP */
+
+.about-section {
+    padding-top: 8rem;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    position: relative;
+    left: 4.3rem;
+    border: #678E3E solid 9px;
+}
+
+.about-paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-details h3 {
+    color: #112B42;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+
+}
+
+
+.about-details p{
+    width: 60%;
+    font-size: 1.1rem;
+}
+
+.about-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media screen  and (max-width: 971px){
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-image {
+       padding-right: 7.8rem;
+    }
+
+
+    .about-image img {
+        max-width: 100%;
+        width: 40rem;
+    }
+
+
+    .about-details {
+        padding-top: 2rem;
+    }
+
+
+    .about-details h3 {
+        padding-top: 1rem;
+    }
+
+
+    .about-details p {
+        font-size: 1rem;
+        max-width: 100%;
+        width: 90%;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+
+
+/* ABOUT SECTION    BOTTOM */
+
+
+
+
+
+
+
+
+/* MENU SECTION    TOP */
+
+
+.menu-section {
+    padding-top: 5rem;
+    padding-bottom: 30rem;
+    background-color:  #f7ebeb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+
+
+}
+
+
+.menu-head h2 {
+    color: #102B43;
+    font-size: 3rem;
+    padding-bottom: 6rem;
+
+
+}
+
+.menu-category {
+    background-color: rgb(248, 248, 248);
+    border-radius: 1.1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    padding: 1.3rem ;
+    margin-right: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 6rem;
+
+}
+.menu-category:hover {
+    background-color: #678E3E;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.menu-section img {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+.menu-text {
+    margin-left: 2rem;
+}
+
+
+.menu-item {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+
+.menu-item h3 {
+    color: #515061;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+    
+}
+
+.menu-item .price {
+   color: #678F3F;
+   font-weight: bold;
+   font-size: 2rem;
+    position: relative;
+    left: 1rem;
+}
+
+
+.menu-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.6rem;
+}
+
+.menu-btn-wrapper button {
+    border: none;
+    background: transparent;
+    color: #b78206; 
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+
+
+}
+.fa-arrow-right {
+    color: #b78206; 
+
+}
+
+
+
+
+
+
+
+
+.menu-lunch, .menu-dinner, .menu-beverages, .menu-desserts {
+    display: flex;
+    
+}
+
+
+  .menu-item  {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 41rem;
+    padding: 1.5rem;
+}
+
+
+
+
+@media screen  and (max-width: 1321px){
+    .menu-lunch, .menu-dinner, .menu-beverages, .menu-desserts {
+        flex-direction: column;
+
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .menu-item {
+        width: 20rem;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .menu-text {
+      
+    }
+
+    .menu-text p  {
+        text-align: center;
+    }
+}
+
+
+
+/* MENU SECTION   BOTTOM */
+
+
+
+
+/*
+
+
+
 
 
 body {
@@ -11,7 +642,6 @@ body {
 }
 
 
-/* HEADER  /images/istockphoto-913677844-612x612.jpg'*/
 
 
 .hero-image {
@@ -22,6 +652,7 @@ body {
  height: 100vh;
 
 }
+
 
 
 
@@ -96,7 +727,6 @@ img {
 
 
 
-/*  Details SECTION */
 
 
 
@@ -121,7 +751,6 @@ img {
 
 
 .card:hover {
-    background-color: white;
     border-bottom: solid 3px #678E3E ;
 }
 
@@ -150,7 +779,6 @@ img {
 
 
 
-/* about-us-section */
 
 .about-us-section {
     min-height: 80vh;
@@ -190,7 +818,6 @@ img {
 
 
 
-/* Menu Section */
 
 
 .menu-section {
@@ -438,7 +1065,6 @@ img {
 
 
 
-/*  Blog-section */
 
 
 .blog-section {
@@ -545,7 +1171,6 @@ img {
 
 
 
-/* Contact section -----*/
 
 
 
@@ -673,3 +1298,6 @@ img {
     color: #112A43;
     font-weight: bold;
 }
+
+
+*/
