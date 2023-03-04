@@ -256,7 +256,6 @@ nav li a:hover {
 .details-section {
     padding-top: 5rem;
     padding-bottom: 10vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -472,9 +471,18 @@ nav li a:hover {
 /* MENU SECTION    TOP */
 
 
+.menu-title{
+    display: flex;
+ 
+}
+
+
+
+
+
 .menu-section {
     padding-top: 5rem;
-    padding-bottom: 30rem;
+    padding-bottom: 5rem;
     background-color:  #f7ebeb;
     display: flex;
     justify-content: center;
@@ -592,7 +600,7 @@ nav li a:hover {
 
 
 
-@media screen  and (max-width: 1321px){
+@media screen  and (max-width: 1394px){
     .menu-lunch, .menu-dinner, .menu-beverages, .menu-desserts {
         flex-direction: column;
 
@@ -612,22 +620,239 @@ nav li a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+
+        padding-bottom: 2rem;
     }
 
 
-    .menu-text {
+    .menu-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
       
     }
 
     .menu-text p  {
         text-align: center;
     }
-}
 
+
+    .price {
+        margin-bottom: 1.6rem;
+        width: 56%;
+    }
+
+
+    .menu-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 1rem;
+
+    }
+}
 
 
 /* MENU SECTION   BOTTOM */
 
+
+
+
+
+
+
+
+/* BLOG SECTION  T0P */
+
+.blog-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background-color: #e4e4e4;
+    padding-left: 4rem;
+
+
+}
+
+.blog-head {
+    display: flex;
+    justify-content: center;
+    color: #102B43;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.blog-image img {
+    width: 25rem;
+    height: 25rem;
+}
+
+.blog-container {
+   display: flex;
+   justify-content: center;
+    
+}
+
+.blog-title {
+    color: #2f3146;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.blog-title, .blog-para {
+    display: flex;
+    justify-content: center;
+
+}
+
+.blog-para p {
+    text-align: center;
+    width: 70%;
+    font-size: 1rem;
+}
+
+
+
+.blog-info {
+    padding-top: 1rem;
+}
+
+
+
+.blog {
+    margin-right: 6.5rem;
+}
+
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    color: #678E3E;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+
+}
+
+
+.date {
+    padding-left: 0.6rem;
+}
+
+
+.blog-btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.blog-btn a {
+    text-decoration: none;
+    background-color: #678E3E;
+    color: white;
+    margin-top: 0.9rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+
+
+}
+
+
+/* BLOG SECTION  BOTT0M*/
+
+
+
+
+
+/* TEAM SECTION  T0P*/
+
+
+
+  .team-section {
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+
+  }
+
+
+.team-member {
+    margin-right: 1rem;
+}
+
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .team-section img {
+    width: 25rem;
+    height: 20rem;
+    
+  }
+
+
+  .team-head {
+    display: flex;
+    justify-content: center;
+    color: #102B43;
+    font-size: 2rem;
+     margin-bottom: 5rem;
+    
+  }
+
+
+
+
+ .member-info {
+    background-color: #F1F5F8;
+    width: 25rem;
+    height: 15rem;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+    position: relative;
+    bottom: 0.2rem;
+ }
+
+
+  .member-name {
+    display: flex;
+    justify-content: center;
+    color: #2f3146;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom:0.4rem ;
+
+  }
+
+
+.member-job {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #678E3E;
+    font: bold;
+    margin-bottom: 0.6rem;
+    
+}
+
+
+  .member-info p {
+    text-align: center;
+  }
+
+
+
+
+
+
+
+/* TEAM SECTION  BOTTOM*/
 
 
 
